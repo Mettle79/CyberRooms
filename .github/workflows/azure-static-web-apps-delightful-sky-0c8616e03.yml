@@ -31,7 +31,7 @@ jobs:
           app_location: "/" # App source code path
           api_location: "" # Api source code path - optional
           output_location: "out" # Built app content directory - using Next.js static export
-          app_build_command: "DISABLE_ESLINT_PLUGIN=true next build" # Build command for Next.js with ESLint disabled
+          app_build_command: "DISABLE_ESLINT_PLUGIN=true npx next build" # Build command for Next.js with ESLint disabled
           ###### End of Repository/Build Configurations ######
 
   close_pull_request_job:
