@@ -12,6 +12,10 @@ const nextConfig = {
   },
   experimental: {
     esmExternals: true
+  },
+  output: 'export',
+  images: {
+    unoptimized: true
   }
 }
 
